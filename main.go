@@ -25,9 +25,8 @@ func ConvertPlus() {
 
 // ForExample - For ForExample
 func ForExample() {
-	i := 0
-	for i <= 9 {
+
+	for i := 0; i <= 9; i++ {
 		fmt.Println(i)
-		i++
 	}
 }
